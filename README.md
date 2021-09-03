@@ -15,6 +15,10 @@ Which should make it easier to decide, if app need such requirement and how to a
 
 ## Checklist
 
+- [Shared](Checklists/01-Shared.md)
+- [iOS](Checklists/02-iOS.md)
+- [Android](Checklists/03-Android.md)
+
 ## Handbooks
 
 # About
