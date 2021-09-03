@@ -13,7 +13,7 @@ Which should make it easier to decide, if app need such requirement and how to a
 
 # Table of contents
 
-## Checklist
+## Checklists
 
 - [Shared](Checklists/01-Shared.md)
 - [iOS](Checklists/02-iOS.md)
