@@ -1,0 +1,70 @@
+[
+    {
+        "name": "Shared",
+        "description": "Shared security requirements between platforms",
+        "code": "S",
+        "groups": [
+            {
+                "name": "Default",
+                "code": "D",
+                "requirements": [
+                    {
+                        "priority": "high",
+                        "feature": "Login / Signup, keeping user session alive",
+                        "description": "All tokens / credentials must be stored in keychain/keystore if they are persisted",
+                        "references": []
+                    }
+                ]
+            },
+            {
+                "name": "Extra",
+                "code": "E",
+                "requirements": [
+                    {
+                        "priority": "medium",
+                        "feature": "Fintech app or very sensitive application",
+                        "description": "To increase security of the application it could be additionally protected with PIN screen.",
+                        "references": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "iOS",
+        "description": "iOS specific requirements",
+        "code": "iOS",
+        "groups": [
+            {
+                "name": "iOS",
+                "code": "iOS",
+                "requirements": [
+                    {
+                        "priority": "low",
+                        "feature": "Using UITextField with sensitive data",
+                        "description": "Set autocorrectionType to .none in Sensitive UITextFields.",
+                        "references": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Android",
+        "description": "",
+        "code": "AND",
+        "groups": []
+    },
+    {
+        "name": "PCI DSS",
+        "description": "",
+        "code": "PCI",
+        "groups": []
+    },
+    {
+        "name": "HIPPA",
+        "description": "",
+        "code": "HIPPA",
+        "groups": []
+    }
+]
