@@ -1,4 +1,4 @@
-#! /usr/bin/python
+#! /usr/bin/python3
 """Main module of the MobSec Checklist generator script"""
 from json_loader import load_data
 from markdown_generator import generate_markdown_files

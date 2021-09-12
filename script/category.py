@@ -29,6 +29,7 @@ class Category:
     load_json(uuid, json)
         Initializes Category object with given JSON dictionary and unique identifier
     """
+
     uuid: int
     name: str
     description: str
@@ -53,7 +54,7 @@ class Category:
         markdown += '| --  | -- | ---------------------- | ---------------------- | - |\n'
         for requirement in group.requirements:
             group_code = group.code if should_add_header else ""
-            markdown += f'| {category_code}{group_code}.{requirement.id} | '
+            markdown += f'| {category_code}{group_code}.{requirement.uuid} | '
             markdown += f'{requirement.priority} | '
             markdown += f'{requirement.feature} | '
             markdown += f'{requirement.description} | '
@@ -76,6 +77,7 @@ class Category:
         json: dict
             dictionary with JSON data of the Category
         """
+
         try:
             return Category(
                 uuid=uuid,
