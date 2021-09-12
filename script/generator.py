@@ -1,10 +1,11 @@
+#! /usr/bin/python
 """Main module of the MobSec Checklist generator script"""
 from json_loader import load_data
 from markdown_generator import generate_markdown_files
 
 def main():
     """Entry point of the MobSec Checklist generator script.
-    
+
     This performs all operations required to generate most recent version
     of the Mobile Security Checklist.
 
