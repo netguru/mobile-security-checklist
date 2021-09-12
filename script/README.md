@@ -11,7 +11,7 @@ Data is loaded from the 'requirements.json' and then exported as '.md' and '.xls
 ## Usage
 
 ### requirements.json
-All requirements data is loaded from a single file - `requirements.json`. The data is structurized into Categories, Groups and Requirements. Each Category is a separate Markdown file or spreadsheet sheet. Category include one or more Groups, for each there's separate Markdown table of associated Requirements.
+All requirements data is loaded from a single file — `requirements.json`. The data is structurized into Categories, Groups and Requirements. Each Category is a separate Markdown file or spreadsheet sheet. Category include one or more Groups, for each there's separate Markdown table of associated Requirements.
 
 Example of `requirements.json` file with one Category, Group and Requirement:
 ```json
@@ -47,7 +47,7 @@ With given `requirements.json` file, following Markdown content will be created:
 
 | ID  | Priority | Feature | Description | Link |
 | --  | -- | ---------------------- | ---------------------- | - |
-| SD.1 | High | Login / Signup, keeping user session alive | All tokens / credentials must be stored in keychain/keystore if they are persisted |  |
+| SD.1 | High | Login / Signup, keeping user session alive | All tokens / credentials must be stored in keychain/keystore if they are persisted | [1](http://www.url_to_reference_article.com) |
 ```
 
 ### Launching the script
