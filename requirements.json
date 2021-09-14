@@ -12,43 +12,43 @@
                         "priority": "high",
                         "feature": "Login / Signup, keeping user session alive",
                         "description": "All tokens / credentials must be stored in keychain/keystore if they are persisted",
-                        "reference": "Handbooks/TODO.md"
+                        "reference": "../Handbooks/TODO.md"
                     },
                     {
                         "priority": "High",
                         "feature": "Storing environment variables",
                         "description": "Environment variables cannot be stored in github repository. All envs should be stored in secrets on CI (e. g. Bitrise)",
-                        "reference": "Handbooks/TODO.md"
+                        "reference": "../Handbooks/TODO.md"
                     },
                     {
                         "priority": "Medium",
                         "feature": "App is using logs.",
                         "description": "No sensitive data is written to application logs.",
-                        "reference": "Handbooks/TODO.md"
+                        "reference": "../Handbooks/TODO.md"
                     },
                     {
                         "priority": "Critical",
                         "feature": " Sensitive aplication logic",
                         "description": "Validate every update of a sensitive value with the server. <br> Do not validate sensitive features locally <br> For example: <br> - Admin mode <br> - Coins for premium features",
-                        "reference": "Handbooks/TODO.md"
+                        "reference": "../Handbooks/TODO.md"
                     },
                     {
                         "priority": "Critical",
                         "feature": "Hardcoded keys",
                         "description": "App doesn't store sensitive hardcoded keys inside app and conforms to best practices of storing hardcoded keys.",
-                        "reference": "Handbooks/TODO.md"
+                        "reference": "../Handbooks/TODO.md"
                     },
                     {
                         "priority": "Critical",
                         "feature": "Login / signup",
                         "description": "Do not store user password in local data storage.",
-                        "reference": "Handbooks/TODO.md"
+                        "reference": "../Handbooks/TODO.md"
                     },
                     {
                         "priority": "High",
                         "feature": "Third party service with API keys.",
                         "description": "Keys generated in Third Party service like Google Cloud should have minimum set of permissions. <br> It should have assigned bundleID / AppID to key, It will accept data only from those apps.",
-                        "reference": "Handbooks/TODO.md"
+                        "reference": "../Handbooks/TODO.md"
                     }
                 ]
             },
@@ -60,7 +60,7 @@
                         "priority": "medium",
                         "feature": "Fintech app or very sensitive application",
                         "description": "To increase security of the application it could be additionally protected with PIN screen.",
-                        "reference": "Handbooks/TODO.md"
+                        "reference": "../Handbooks/TODO.md"
                     }
                 ]
             }
@@ -79,25 +79,25 @@
                         "priority": "low",
                         "feature": "Using UITextField with sensitive data",
                         "description": "Set autocorrectionType to .none in Sensitive UITextFields.",
-                        "reference": "Handbooks/TODO.md"
+                        "reference": "../Handbooks/TODO.md"
                     },
                     {
                         "priority": "Medium",
                         "feature": "Using NSURLSession",
                         "description": "By default NSURLSession stores data, such as HTTP requests and responses in the Cache.db database. <br> It should be disabled in URLSession with setting .ephemeral type instead of default one.",
-                        "reference": "Handbooks/TODO.md"
+                        "reference": "../Handbooks/TODO.md"
                     },
                     {
                         "priority": "Medium",
                         "feature": "Certificate Pinning implemetation using TrustKit",
                         "description": "Set kTSKDisableDefaultReportUri to true <br> By default this flag is false, which means it will be sending error reports to tool owner.",
-                        "reference": "Handbooks/TODO.md"
+                        "reference": "../Handbooks/TODO.md"
                     },
                     {
                         "priority": "High",
                         "feature": "Default",
                         "description": "Verify if not needed files are not included in the bundle. <br> Exclude them if needed using EXCLUDED_SOURCE_FILE_NAMES",
-                        "reference": "Handbooks/TODO.md"
+                        "reference": "../Handbooks/TODO.md"
                     }
                 ]
             }
@@ -116,7 +116,7 @@
                         "priority": "TODO",
                         "feature": "TODO",
                         "description": "TODO",
-                        "reference": "Handbooks/TODO.md"
+                        "reference": "../Handbooks/TODO.md"
                     }
                 ]
             }
