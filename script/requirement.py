@@ -16,8 +16,8 @@ class Requirement:
         short description of application feature that implies this Requirement
     description : str
         description of the Requirement and required implementation
-    references : List[str]
-        list of URLs to articles that provide broader description of the security issue
+    reference : str
+        URLs to handbook that provide broader description of the security issue
 
     Methods
     -------
@@ -29,7 +29,7 @@ class Requirement:
     priority: str
     feature: str
     description: str
-    references: List[str] = field(default_factory=List)
+    reference: str
 
     @staticmethod
     def load_json(uuid, json):
@@ -52,7 +52,7 @@ class Requirement:
                 priority=json['priority'].capitalize(),
                 feature=json['feature'],
                 description=json['description'],
-                references=json['references']
+                reference=json['reference']
             )
         except KeyError as e:
             print(f'Load Requirement error, no such key as {e}.')
