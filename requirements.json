@@ -34,13 +34,13 @@
                     },
                     {
                         "priority": "Critical",
-                        "feature": " Hardcoded keys",
+                        "feature": "Hardcoded keys",
                         "description": "App doesn't store sensitive hardcoded keys inside app and conforms to best practices of storing hardcoded keys.",
                         "references": []
                     },
                     {
                         "priority": "Critical",
-                        "feature": " Login / signup",
+                        "feature": "Login / signup",
                         "description": "Do not store user password in local data storage.",
                         "references": []
                     },
