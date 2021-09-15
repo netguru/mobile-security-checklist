@@ -29,7 +29,7 @@ Example of `requirements.json` file with one Category, Group and Requirement:
                         "priority": "high",
                         "feature": "Login / Signup, keeping user session alive",
                         "description": "All tokens / credentials must be stored in keychain/keystore if they are persisted",
-                        "references": ["http://www.url_to_reference_article.com"]
+                        "reference": "../Handbooks/TODO.md"
                     }
                 ]
             },
@@ -47,7 +47,7 @@ With given `requirements.json` file, following Markdown content will be created:
 
 | ID  | Priority | Feature | Description | Link |
 | --  | -- | ---------------------- | ---------------------- | - |
-| SD.1 | High | Login / Signup, keeping user session alive | All tokens / credentials must be stored in keychain/keystore if they are persisted | [1](http://www.url_to_reference_article.com) |
+| SD.1 | High | Login / Signup, keeping user session alive | All tokens / credentials must be stored in keychain/keystore if they are persisted | [Handbook](../Handbooks/TODO.md) |
 ```
 
 ### Launching the script
