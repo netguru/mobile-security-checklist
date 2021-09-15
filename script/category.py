@@ -58,8 +58,7 @@ class Category:
             markdown += f'{requirement.priority} | '
             markdown += f'{requirement.feature} | '
             markdown += f'{requirement.description} | '
-            refs = [f"[{cls.uuid}]({ref})" for id, ref in enumerate(requirement.references, 1)]
-            markdown += f'{"".join(refs)} |\n'
+            markdown += f'[Handbook]({requirement.reference}) |\n'
         markdown += '\n'
         return markdown
 
