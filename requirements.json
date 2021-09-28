@@ -147,6 +147,72 @@
                         "reference": "../Handbooks/TODO.md"
                     }
                 ]
+            },
+            {
+                "name": "GDPR",
+                "code": "G",
+                "requirements": [
+                    {
+                        "priority": "Critical",
+                        "feature": "Persising user personal information (name, phone, email, ...) on the device",
+                        "description": "Persisted database should be encrypted when not used. Storage data should not be easily accessible and kept unencrypted",
+                        "reference": "../Handbooks/TODO.md"
+                    },
+                    {
+                        "priority": "Medium",
+                        "feature": "Saving sensitive data in local storage (Keychain, SQLite, ...)",
+                        "description": "The app’s local storage should be wiped after an excessive number of failed authentication attempts",
+                        "reference": "../Handbooks/TODO.md"
+                    },
+                    {
+                        "priority": "High",
+                        "feature": "Sending personal data outside of the application",
+                        "description": "All requests must be authenticated",
+                        "reference": "../Handbooks/TODO.md"
+                    },
+                    {
+                        "priority": "Medium",
+                        "feature": "Transferin personal data through REST API",
+                        "description": "Certificate pinning should be implemented and HTTPS protocol used for network communication",
+                        "reference": "../Handbooks/TODO.md"
+                    },
+                    {
+                        "priority": "Critical",
+                        "feature": "Displaying privacy policy screen during registration process",
+                        "description": "The privacy policy must be directly accepted by the user, you can use unchecked checkbox",
+                        "reference": "../Handbooks/TODO.md"
+                    },
+                    {
+                        "priority": "High",
+                        "feature": "Using non-production environments",
+                        "description": "Non-production environments (development, staging, beta) **can not** contain any real personal data",
+                        "reference": "../Handbooks/TODO.md"
+                    }
+                ]
+            },
+            {
+                "name": "Email",
+                "code": "EM",
+                "requirements": [
+                    {
+                        "priority": "High",
+                        "feature": "Application has input for user email address",
+                        "description": "Email input should be validated and limited in maximum characters to e.g. 100 characters",
+                        "reference": "../Handbooks/TODO.md"
+                    }
+                ]
+            },
+            {
+                "name": "Video",
+                "code": "V",
+                "requirements": [
+                    {
+                        "priority": "High",
+                        "feature": "User can play video in the application",
+                        "description": "Video data must be received through HTTPS protocol",
+                        "reference": "../Handbooks/TODO.md"
+                    }
+                ]
             }
         ]
     },
