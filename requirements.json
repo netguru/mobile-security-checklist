@@ -94,6 +94,12 @@
                     },
                     {
                         "priority": "Medium",
+                        "feature": "URLs passed outside of app (for example from API)",
+                        "description": "Validate url according whitelist of urls within app.",
+                        "reference": "../Handbooks/TODO.md"
+                    },
+                    {
+                        "priority": "Medium",
                         "feature": "Login / signup",
                         "description": "Removing all data after logout, keychain, files, cache.",
                         "reference": "../Handbooks/TODO.md"
