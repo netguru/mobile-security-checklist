@@ -231,6 +231,18 @@
                         "reference": "../Handbooks/TODO.md"
                     }
                 ]
+            },
+            {
+                "name": "Location",
+                "code": "L",
+                "requirements": [
+                    {
+                        "priority": "Medium",
+                        "feature": "App is using location services.",
+                        "description": "Detect mocked location and let user know. Also check how it's affecting app and should it be possible to fake location.",
+                        "reference": "../Handbooks/TODO.md"
+                    }
+                ]
             }
         ]
     },
@@ -265,6 +277,12 @@
                         "priority": "High",
                         "feature": "Default",
                         "description": "Verify if not needed files are not included in the bundle. <br> Exclude them if needed using EXCLUDED_SOURCE_FILE_NAMES",
+                        "reference": "../Handbooks/TODO.md"
+                    },
+                    {
+                        "priority": "Low",
+                        "feature": "User enter sensitive data or password into inputs.",
+                        "description": "Verify that the app prevents usage of custom third-party keyboards whenever sensitive data is entered.",
                         "reference": "../Handbooks/TODO.md"
                     }
                 ]
