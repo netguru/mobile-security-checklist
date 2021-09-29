@@ -28,6 +28,8 @@
 | ID  | Priority | Feature | Description | Link |
 | --  | -- | ---------------------- | ---------------------- | - |
 | SE.1 | Medium | Fintech app or very sensitive application | To increase security of the application it could be additionally protected with PIN screen. | [Handbook](../Handbooks/TODO.md) |
+| SE.2 | Medium | User shouldn't use jailbroken/rooted device. | The app detects and reacts to the presence of a rooted or jailbroken device either by alerting the user or terminating the app. | [Handbook](../Handbooks/TODO.md) |
+| SE.3 | Low | The app informs the user of all sensitive activities with their account. Users are able to view a list of devices, view contextual information (IP address, location, etc.), and to block specific devices. | The app informs the user of all sensitive activities with their account. Users are able to view a list of devices, view contextual information (IP address, location, etc.), and to block specific devices. | [Handbook](../Handbooks/TODO.md) |
 
 
 ## WebView

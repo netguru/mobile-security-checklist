@@ -121,6 +121,18 @@
                         "feature": "Fintech app or very sensitive application",
                         "description": "To increase security of the application it could be additionally protected with PIN screen.",
                         "reference": "../Handbooks/TODO.md"
+                    },
+                    {
+                        "priority": "Medium",
+                        "feature": "User shouldn't use jailbroken/rooted device.",
+                        "description": "The app detects and reacts to the presence of a rooted or jailbroken device either by alerting the user or terminating the app.",
+                        "reference": "../Handbooks/TODO.md"
+                    },
+                    {
+                        "priority": "Low",
+                        "feature": "The app informs the user of all sensitive activities with their account. Users are able to view a list of devices, view contextual information (IP address, location, etc.), and to block specific devices.",
+                        "description": "The app informs the user of all sensitive activities with their account. Users are able to view a list of devices, view contextual information (IP address, location, etc.), and to block specific devices.",
+                        "reference": "../Handbooks/TODO.md"
                     }
                 ]
             },
@@ -189,7 +201,7 @@
     },
     {
         "name": "Android",
-        "description": "",
+        "description": "Android specific requirements",
         "code": "AND",
         "groups": [
             {
@@ -197,9 +209,21 @@
                 "code": "AND",
                 "requirements": [
                     {
-                        "priority": "TODO",
-                        "feature": "TODO",
-                        "description": "TODO",
+                        "priority": "Low",
+                        "feature": "Text fields with sensitive data",
+                        "description": "Set Text suggestions to .none <br> android:inputType=\"textNoSuggestions\"",
+                        "reference": "../Handbooks/TODO.md"
+                    },
+                    {
+                        "priority": "Medium",
+                        "feature": "Android App, when app shows sensitive data like medical, banking, etc. <br> Easy to implement, but it should not be implemented over usability in some apps like messenger.",
+                        "description": "Android Screenshot / screen recording preventing, <br> Android offers a screenshot feature that can be used by the user or by the system for recent apps. <br> Due to that reason screenshots should be disable for sensitive data.",
+                        "reference": "../Handbooks/TODO.md"
+                    },
+                    {
+                        "priority": "High",
+                        "feature": "Fields with sensitive data that should not be copied.",
+                        "description": "Secure fields with sensitive data from coping them by other apps and User.",
                         "reference": "../Handbooks/TODO.md"
                     }
                 ]
