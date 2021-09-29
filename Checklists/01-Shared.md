@@ -72,3 +72,10 @@
 | --  | -- | ---------------------- | ---------------------- | - |
 | SV.1 | High | User can play video in the application | Video data must be received through HTTPS protocol | [Handbook](../Handbooks/TODO.md) |
 
+
+## Location
+
+| ID  | Priority | Feature | Description | Link |
+| --  | -- | ---------------------- | ---------------------- | - |
+| SL.1 | Medium | App is using location services. | Detect mocked location and let user know. Also check how it's affecting app and should it be possible to fake location. | [Handbook](../Handbooks/TODO.md) |
+
