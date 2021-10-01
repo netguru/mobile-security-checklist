@@ -139,6 +139,12 @@
                         "feature": "The app informs the user of all sensitive activities with their account. Users are able to view a list of devices, view contextual information (IP address, location, etc.), and to block specific devices.",
                         "description": "The app informs the user of all sensitive activities with their account. Users are able to view a list of devices, view contextual information (IP address, location, etc.), and to block specific devices.",
                         "reference": "../Handbooks/TODO.md"
+                    },
+                    {
+                        "priority": "Low",
+                        "feature": "The app catches and handles possible exceptions.",
+                        "description": "Make sure you have added sentry, bugsnag or crashlitics or other to catch all crashes.",
+                        "reference": "../Handbooks/TODO.md"
                     }
                 ]
             },
