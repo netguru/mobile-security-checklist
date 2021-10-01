@@ -157,6 +157,12 @@
                         "feature": "Very sensitive applications like banking apps.",
                         "description": "Two factor authentication",
                         "reference": "../Handbooks/TODO.md"
+                    },
+                    {
+                        "priority": "Low",
+                        "feature": "App is recognizing device as trust device.",
+                        "description": "The app implements a 'device binding' functionality using a device fingerprint derived from multiple properties unique to the device.",
+                        "reference": "../Handbooks/TODO.md"
                     }
                 ]
             },
