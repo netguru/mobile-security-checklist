@@ -139,6 +139,36 @@
                         "feature": "The app informs the user of all sensitive activities with their account. Users are able to view a list of devices, view contextual information (IP address, location, etc.), and to block specific devices.",
                         "description": "The app informs the user of all sensitive activities with their account. Users are able to view a list of devices, view contextual information (IP address, location, etc.), and to block specific devices.",
                         "reference": "../Handbooks/TODO.md"
+                    },
+                    {
+                        "priority": "Low",
+                        "feature": "The app catches and handles possible exceptions.",
+                        "description": "Make sure you have added sentry, bugsnag or crashlitics or other to catch all crashes.",
+                        "reference": "../Handbooks/TODO.md"
+                    },
+                    {
+                        "priority": "Medium",
+                        "feature": "Storing data using hashes",
+                        "description": "Hashed data should use unique (for every user) salt to increase the complexity of reversing the operation.",
+                        "reference": "../Handbooks/TODO.md"
+                    },
+                    {
+                        "priority": "High",
+                        "feature": "Very sensitive applications like banking apps.",
+                        "description": "Two factor authentication",
+                        "reference": "../Handbooks/TODO.md"
+                    },
+                    {
+                        "priority": "Low",
+                        "feature": "App is recognizing device as trust device.",
+                        "description": "The app implements a 'device binding' functionality using a device fingerprint derived from multiple properties unique to the device.",
+                        "reference": "../Handbooks/TODO.md"
+                    },
+                    {
+                        "priority": "Medium",
+                        "feature": "Login",
+                        "description": "Block App after number of login failures",
+                        "reference": "../Handbooks/TODO.md"
                     }
                 ]
             },
