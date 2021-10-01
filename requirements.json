@@ -151,6 +151,12 @@
                         "feature": "Storing data using hashes",
                         "description": "Hashed data should use unique (for every user) salt to increase the complexity of reversing the operation.",
                         "reference": "../Handbooks/TODO.md"
+                    },
+                    {
+                        "priority": "High",
+                        "feature": "Very sensitive applications like banking apps.",
+                        "description": "Two factor authentication",
+                        "reference": "../Handbooks/TODO.md"
                     }
                 ]
             },
