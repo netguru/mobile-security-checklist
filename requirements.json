@@ -163,6 +163,12 @@
                         "feature": "App is recognizing device as trust device.",
                         "description": "The app implements a 'device binding' functionality using a device fingerprint derived from multiple properties unique to the device.",
                         "reference": "../Handbooks/TODO.md"
+                    },
+                    {
+                        "priority": "Medium",
+                        "feature": "Login",
+                        "description": "Block App after number of login failures",
+                        "reference": "../Handbooks/TODO.md"
                     }
                 ]
             },
