@@ -11,6 +11,10 @@ Every requirement should contain a handbook describing:
 
 Which should make it easier to decide, if app need such requirement and how to apply it.
 
+# Why did we decide to create a Mobile Security Checklist?
+
+TODO:
+
 # Table of contents
 
 ## Checklists
