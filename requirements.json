@@ -145,6 +145,12 @@
                         "feature": "The app catches and handles possible exceptions.",
                         "description": "Make sure you have added sentry, bugsnag or crashlitics or other to catch all crashes.",
                         "reference": "../Handbooks/TODO.md"
+                    },
+                    {
+                        "priority": "Medium",
+                        "feature": "Storing data using hashes",
+                        "description": "Hashed data should use unique (for every user) salt to increase the complexity of reversing the operation.",
+                        "reference": "../Handbooks/TODO.md"
                     }
                 ]
             },
