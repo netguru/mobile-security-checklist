@@ -1,6 +1,6 @@
 """Implementation of Requirement model"""
-from dataclasses import dataclass, field
-from typing import List
+from dataclasses import dataclass
+from string import whitespace
 
 @dataclass(frozen=True, order=True)
 class Requirement:
@@ -49,10 +49,10 @@ class Requirement:
         try:
             return Requirement(
                 uuid=uuid,
-                priority=json['priority'].capitalize(),
-                feature=json['feature'],
-                description=json['description'],
-                reference=json['reference']
+                priority=json['priority'].capitalize().strip(whitespace + '.'),
+                feature=json['feature'].strip(whitespace + '.'),
+                description=json['description'].strip(whitespace + '.'),
+                reference=json['reference'].rstrip('.').strip()
             )
         except KeyError as e:
             print(f'Load Requirement error, no such key as {e}.')
