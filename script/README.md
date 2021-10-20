@@ -3,7 +3,7 @@
 This is a simple Python script that performs all operations required 
 to generate most recent version of the Mobile Security Checklist.
 
-Data is loaded from the 'requirements.json' and then exported as '.md' and '.xls' files.
+Data is loaded from the 'requirements.json' and then exported as '.md' and '.xlsx' files.
 
 ## Requirements
 -  Python 3.9+
@@ -50,6 +50,9 @@ With given `requirements.json` file, following Markdown content will be created:
 | SD.1 | High | Login / Signup, keeping user session alive | All tokens / credentials must be stored in keychain/keystore if they are persisted | [Handbook](../Handbooks/TODO.md) |
 ```
 
+The script also generates spreadhseet `mobile_security_checklist.xlsx` to fill while working with the Mobile Security Checklist.
+Generation of the `.xlsx` file is based on both `requirements.json` and `script/checklist_base.xlsx` files. The later is used to prefill informative sheets of the spreadsheet.
+
 ### Launching the script
 To launch the script simply execute the `generator.py` file. The script does not take any arguments.
 ```bash
@@ -61,5 +64,4 @@ or
 ```
 
 ## TODO
-- generate '.xls' file
 - automate with GitHub actions
