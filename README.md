@@ -25,6 +25,13 @@ TODO:
 
 ## Handbooks
 
+- 
+
+# TODO
+
+- [Checklist requirements contibution guide](Checklists/how_to_contribute.md).
+- Issue and PR templates + proper linking to them in contribution guides.
+
 # About
 
 This project is made with ❤️ by [Netguru](https://netguru.com).
