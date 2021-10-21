@@ -31,6 +31,7 @@ TODO:
 
 - [Checklist requirements contibution guide](Checklists/how_to_contribute.md).
 - Issue and PR templates + proper linking to them in contribution guides.
+- Setup branches policy for contributing new content.
 
 # About
 
