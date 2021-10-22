@@ -25,6 +25,10 @@ TODO:
 
 ## Handbooks
 
+- [Shared](Handbooks/01-Shared/)
+- [iOS](Handbooks/02-iOS/)
+- [Android](Handbooks/03-Android/)
+
 # About
 
 This project is made with ❤️ by [Netguru](https://netguru.com).

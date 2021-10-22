@@ -24,7 +24,7 @@
                         "priority": "Medium",
                         "feature": "App is using logs.",
                         "description": "No sensitive data is written to application logs.",
-                        "reference": "../Handbooks/TODO.md"
+                        "reference": "../Handbooks/01-Shared/SD.3-Secure-application-logging.md"
                     },
                     {
                         "priority": "Critical",
