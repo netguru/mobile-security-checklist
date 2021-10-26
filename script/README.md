@@ -7,6 +7,7 @@ Data is loaded from the 'requirements.json' and then exported as '.md' and '.xls
 
 ## Requirements
 -  Python 3.9+
+-  openpyxl 3.0.9+
 
 ## Usage
 
@@ -64,4 +65,6 @@ or
 ```
 
 ## TODO
-- automate with GitHub actions
+- automate with GitHub actions.
+- update script (insert new requirements rows into existing checklist spreadsheet).
+- update main README checklists list.

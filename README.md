@@ -25,6 +25,14 @@ TODO:
 
 ## Handbooks
 
+- 
+
+# TODO
+
+- [Checklist requirements contibution guide](Checklists/how_to_contribute.md).
+- Issue and PR templates + proper linking to them in contribution guides.
+- Setup branches policy for contributing new content.
+
 # About
 
 This project is made with ❤️ by [Netguru](https://netguru.com).
@@ -36,9 +44,14 @@ This project is made with ❤️ by [Netguru](https://netguru.com).
 <a href="https://github.com/krysztalzg">
   <img alt="Kamil" src="https://avatars.githubusercontent.com/u/6009785?v=4" height="60" width="60"/>
 </a>
-  
+
 <a href="https://github.com/karolpiateknet">
   <img alt="Karol" src="https://avatars.githubusercontent.com/u/57398986?v=4" height="60" width="60"/>
 </a>
 
 </div>
+<br>
+
+Wanna become next contributor? Check these guides:
+- [Checklist contribution](Checklists/how_to_contribute.md)
+- [Handbooks contribution](Handbooks/how_to_contribute.md)
