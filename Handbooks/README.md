@@ -38,3 +38,6 @@ When you are done with implementation, you can drop a link to the Testing guide 
 
 ## Your feedback
 Security Handbook is created for you, developers that need to improve security of their apps and QAs that will later test it, and to ensure the best experience we need your feedback. If you already had a chance to work with any of our Solutions please tell us what can be improved or added via issues or pull request.
+
+## Want to contribute?
+If you want to contribute and help us grow our mobile security knowledgebase, please check our [contribution guide](how_to_contribute.md).
