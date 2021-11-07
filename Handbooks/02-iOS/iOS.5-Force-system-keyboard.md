@@ -3,11 +3,11 @@
 Verify that the app prevents usage of custom third-party keyboards whenever sensitive data is entered.
 
 ## Risk
-Third-party keyboards often contain some way of learning to improve predictions and autocorrects. This behaviour is achieved by monitoring all input user is providing with use of such keyboard. Data stored in learning databases could be leaked, leading to compromise of sensitive data such as password or security pins.
+Third-party keyboards often contain some way of learning to improve predictions and autocorrects. This behaviour is achieved by monitoring all input users provide with use of such a keyboard. Data stored in learning databases could be leaked, leading to compromise of sensitive data such as password or security pins.
 
 ## When you need it
 If your application takes input of sensitive data from user, such as:
-- password, 
+- password,
 - credit card security code,
 - security PIN.
 
@@ -16,7 +16,7 @@ If your application takes input of sensitive data from user, such as:
 User’s sensitive data is logged by third party software.
 
 ### Desired effect:
-User’s sensitive data is kept enclosed within application’s sandbox.
+User’s sensitive data is kept enclosed within the application’s sandbox.
 
 ## Solution
 To ensure usage of system keyboard for sensitive inputs in our applications we need to setup our Text Fields to use secure entry:
@@ -33,14 +33,14 @@ passwordTextField.secureTextEntry = true
 
 ## Testing guide
 ### Description
-The application forces system keyboard for sensitive inputs.
+The application forces the system keyboard for sensitive inputs.
 
 ### Example scenario:
-- Application requires user to provide his password.
-- When focused on password input only system keyboard is allowed.
+- Application requires the user to provide his password.
+- When focused on password input only the system keyboard is allowed.
 
 ### Tools needed:
-- iPhone with third-party keyboard installed.
+- iPhone with a third-party keyboard installed.
 
 ### How to:
 - Open application on device with third-party keyboard set as default.

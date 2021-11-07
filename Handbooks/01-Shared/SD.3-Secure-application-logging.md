@@ -5,7 +5,9 @@ No sensitive data is written to application logs.
 ## Risk
 Sensitive data can be unintentionally exposed through the console logs. Logging information into the console is a common way to debug applications, but should only be done in debug mode, not leaving any trace of information in production application.
 
-Logs can contain different information like descriptions of interaction flows, details of API requests or current user data. This could allow access to sensitive data or allow easier reverse engineering process.
+Logs can contain different information like descriptions of interaction flows, details of API requests or current user data. This could allow access to sensitive data or allow an easier reverse engineering process.
+
+This risk also applies to events logged via analytics service platforms.
 
 ## When you need it
 You are creating logs in your application that can contain sensitive information.
@@ -15,10 +17,10 @@ You are creating logs in your application that can contain sensitive information
 Application logs that can contain sensitive data are visible in production application.
 
 ### Desired effect:
-No logs with sensitive data are visible while running live application.
+No logs with sensitive data are visible while running a live application.
 
 ## Solution
-Before implementing solution for each platform how to use logs without exposing any of the sensitive data take a moment and decide if logs outside debug mode are even needed in your application. If not you could use compiler directives to disable logging code in production builds. 
+Before implementing a solution for each platform on how to use logs without exposing any of the sensitive data take a moment and decide if logs outside debug mode are even needed in your application. If not you could use compiler directives to disable logging code in production builds.
 
 If you really need to have logs enabled on non-debug builds, remember that no solution grants full security to logged information and we can only make the process of compromising such data harder.
 
@@ -32,13 +34,13 @@ Wrap your logging code with preprocessor flag (DEBUG flag is automatically confi
 ```
 
 #### **Mask sensitive data in your logs**
-Make sure that logging system that you are using allows to mask data in the logs if device is not running in debug mode. For example native iOS solution, OSLog, allows us to mark values put into logs as private:
+Make sure that logging system that you are using allows to mask data in the logs if the device is not running in debug mode. For example native iOS solution, OSLog, allows us to mark values put into logs as private:
 ```swift
 os_log(.default, log: log, "Current user phone: %{private}@", user.phoneNumber)
 ```
 
 ### Android
-Currently most common logging library for Android is Timber, making sure that no sensitive information are logged in production is as simple as planting debug tree only in debug mode as described.
+Currently the most common logging library for Android is Timber, making sure that no sensitive information is logged in production is as simple as planting a debug tree only in debug mode as described.
 
 In your Application class onCreate method check if BuildConfig is debug and plant the tree, that’s all.
 ```kotlin
@@ -63,9 +65,12 @@ global.devLog = (...messages) => __DEV__ && console.log(...messages) // eslint-d
 global.devTron = (...messages) => __DEV__ && console.tron.log(...messages) // eslint-disable-line no-console, max-len
 ```
 
+### Analytics Services
+While logging events to analytics services make sure that only minimal amount of information is saved, eg. id of current user, performed action and application state name. You must not send any sensitive user information to any third-party analytics service.
+
 ## Testing guide
 ### Description
-Logs in Console app are not showing any sensitive data.
+Logs from the production app are not showing any sensitive data.
 
 ### Example scenario:
 Application performs different API calls.
@@ -73,26 +78,32 @@ Application performs different API calls.
 ### Tools needed:
 - **iOS**: iPhone, Macbook
 - **Android**: Android device, Logcat
+- **Analytics**: proper access rights in dashboard panel (depends on analytics service provider)
 
 ### How to:
 #### **iOS**
-- Connect device with launched application to your Macbook.
+- Connect the device with the launched application to your Macbook.
 - Launch Console application.
 - Filter visible logs with application bundle id.
 - Check if any sensitive data is printed into logs while using the application.
 
 #### **Android**
-- Connect Android device to your computer.
+- Connect an Android device to your computer.
 - Start using the application.
-- Check application's data directory for any log files (`/data/data/<package-name>`).
+- Check the application's data directory for any log files (`/data/data/<package-name>`).
 - Use Logcat to filter system messages looking for any `println` or `printStackTrace` output.
     ```bash
     adb logcat | grep "$(adb shell ps | grep <package-name> | awk '{print $2}')"
     ```
-- Check if ay sensitive data is visible in found logs.
+- Check if any sensitive data is visible in found logs.
 
 #### **React Native**
 Follow guides above depending on what device you want to test on.
+
+#### **Analytics Services**
+- Log into your analytics dashboard panel.
+- Filter collected logs to only show those from production application.
+- Validate that no sensitive information is stored.
 
 ## Additional resources
 - https://www.netguru.com/codestories/ios-logging-practices
