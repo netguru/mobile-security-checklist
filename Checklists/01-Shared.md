@@ -6,7 +6,7 @@
 | --  | -- | ---------------------- | ---------------------- | - |
 | SD.1 | High | Login / Signup, keeping user session alive | All tokens / credentials must be stored in keychain/keystore if they are persisted | [Handbook](../Handbooks/TODO.md) |
 | SD.2 | High | Storing environment variables | Environment variables cannot be stored in github repository. All envs should be stored in secrets on CI (e. g. Bitrise) | [Handbook](../Handbooks/TODO.md) |
-| SD.3 | Medium | App is using logs | No sensitive data is written to application logs | [Handbook](../Handbooks/TODO.md) |
+| SD.3 | Medium | App is using logs | No sensitive data is written to application logs | [Handbook](../Handbooks/01-Shared/SD.3-Secure-application-logging.md) |
 | SD.4 | Critical | Sensitive aplication logic | Validate every update of a sensitive value with the server. <br> Do not validate sensitive features locally <br> For example: <br> - Admin mode <br> - Coins for premium features | [Handbook](../Handbooks/TODO.md) |
 | SD.5 | Critical | Hardcoded keys | App doesn't store sensitive hardcoded keys inside app and conforms to best practices of storing hardcoded keys | [Handbook](../Handbooks/TODO.md) |
 | SD.6 | Critical | Login / signup | Do not store user password in local data storage | [Handbook](../Handbooks/TODO.md) |

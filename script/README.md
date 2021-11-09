@@ -67,4 +67,3 @@ or
 ## TODO
 - automate with GitHub actions.
 - update script (insert new requirements rows into existing checklist spreadsheet).
-- update main README checklists list.
