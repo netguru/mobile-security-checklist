@@ -154,11 +154,11 @@ App will show a message based on rooted state.
 Open app on a rooted/jailbroken device and a normal one to notice different messages.
 
 ### Tools needed:
-Rooted/Jailbroken and normal device with installed application
+Rooted/Jailbroken and normal device with installed application.
 
 ### How to:
-- Install and open app on a normal device - notice no message being displayed.
-- Install and open app on a rooted/jailbroken device - notice message saying “This device IS rooted/jailbroken”.
+- Install and open app on a normal device — notice no message being displayed.
+- Install and open app on a rooted/jailbroken device — notice message saying “This device IS rooted/jailbroken”.
 
 ## Additional resources
 - https://medium.com/@deekshithmoolyakavoor/root-detection-in-android-device-9144b7c2ae07
