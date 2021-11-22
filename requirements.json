@@ -132,7 +132,7 @@
                         "priority": "Medium",
                         "feature": "User shouldn't use jailbroken/rooted device.",
                         "description": "The app detects and reacts to the presence of a rooted or jailbroken device either by alerting the user or terminating the app.",
-                        "reference": "../Handbooks/TODO.md"
+                        "reference": "../Handbooks/01-Shared/SE.2-Detecting-and-reacting-to-root.md"
                     },
                     {
                         "priority": "Low",

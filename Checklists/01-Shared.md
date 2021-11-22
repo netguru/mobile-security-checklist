@@ -29,7 +29,7 @@
 | ID  | Priority | Feature | Description | Link |
 | --  | -- | ---------------------- | ---------------------- | - |
 | SE.1 | Medium | Fintech app or very sensitive application | To increase security of the application it could be additionally protected with PIN screen | [Handbook](../Handbooks/TODO.md) |
-| SE.2 | Medium | User shouldn't use jailbroken/rooted device | The app detects and reacts to the presence of a rooted or jailbroken device either by alerting the user or terminating the app | [Handbook](../Handbooks/TODO.md) |
+| SE.2 | Medium | User shouldn't use jailbroken/rooted device | The app detects and reacts to the presence of a rooted or jailbroken device either by alerting the user or terminating the app | [Handbook](../Handbooks/01-Shared/SE.2-Detecting-and-reacting-to-root.md) |
 | SE.3 | Low | The app informs the user of all sensitive activities with their account. Users are able to view a list of devices, view contextual information (IP address, location, etc.), and to block specific devices | The app informs the user of all sensitive activities with their account. Users are able to view a list of devices, view contextual information (IP address, location, etc.), and to block specific devices | [Handbook](../Handbooks/TODO.md) |
 | SE.4 | Low | The app catches and handles possible exceptions | Make sure you have added sentry, bugsnag or crashlitics or other to catch all crashes | [Handbook](../Handbooks/TODO.md) |
 | SE.5 | Medium | Storing data using hashes | Hashed data should use unique (for every user) salt to increase the complexity of reversing the operation | [Handbook](../Handbooks/TODO.md) |
