@@ -59,8 +59,8 @@
 | SG.1 | Critical | Persising user personal information (name, phone, email, ...) on the device | Persisted database should be encrypted when not used. Storage data should not be easily accessible and kept unencrypted | [Handbook](../Handbooks/TODO.md) |
 | SG.2 | Medium | Saving sensitive data in local storage (Keychain, SQLite, ...) | The app’s local storage should be wiped after an excessive number of failed authentication attempts | [Handbook](../Handbooks/TODO.md) |
 | SG.3 | High | Sending personal data outside of the application | All requests must be authenticated | [Handbook](../Handbooks/TODO.md) |
-| SG.4 | Medium | Transferin personal data through REST API | Certificate pinning should be implemented and HTTPS protocol used for network communication | [Handbook](../Handbooks/TODO.md) |
-| SG.5 | Critical | Displaying privacy policy screen during registration process | The privacy policy must be directly accepted by the user, you can use unchecked checkbox | [Handbook](../Handbooks/SG-4-Certificate-Pinning.md) |
+| SG.4 | Medium | Transferin personal data through REST API | Certificate pinning should be implemented and HTTPS protocol used for network communication | [Handbook](../Handbooks/01-Shared/SG-4-Certificate-Pinning.md) |
+| SG.5 | Critical | Displaying privacy policy screen during registration process | The privacy policy must be directly accepted by the user, you can use unchecked checkbox | [Handbook](../Handbooks/TODO.md) |
 | SG.6 | High | Using non-production environments | Non-production environments (development, staging, beta) **can not** contain any real personal data | [Handbook](../Handbooks/TODO.md) |
 
 
