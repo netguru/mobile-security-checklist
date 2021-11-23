@@ -37,6 +37,18 @@ The data encryption certificate sent from the backend has been checked if it is 
 
 Remember that you shouldn’t implement pinning by yourself, as implementation mistakes are extremely likely and usually lead to severe vulnerabilities.
 
+### Warning
+
+Usually if you would like to implement Certificate Pinning you will be pinning to domain fingerprint certificate ( last in the chain of certificates). 
+
+However there are two cases when it is not possible:
+1. Using the Amazon domain (xxx.cloudfront.xxx), or other CDN.
+2. Own domain Route53 and SSL Certificate from Amazon
+
+In those cases you won’t be able to pin to the domain certificate, you should use Root certificate instead of it.
+
+- [Official document about Certificate Pinning on AWS](https://aws.amazon.com/premiumsupport/knowledge-center/pin-application-acm-certificate/)
+
 ### iOS
 
 - [The complete tutorial how to implement the Certificate Pinning using Alamofire or Firebase](https://www.netguru.com/codestories/certificate-pinning-in-ios)
