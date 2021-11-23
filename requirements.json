@@ -222,7 +222,7 @@
                         "priority": "Medium",
                         "feature": "Transferin personal data through REST API",
                         "description": "Certificate pinning should be implemented and HTTPS protocol used for network communication",
-                        "reference": "../Handbooks/TODO.md"
+                        "reference": "../Handbooks/SG-4-Certificate-Pinning.md"
                     },
                     {
                         "priority": "Critical",
