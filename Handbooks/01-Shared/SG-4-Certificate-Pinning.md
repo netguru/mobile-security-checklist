@@ -39,21 +39,15 @@ Remember that you shouldn’t implement pinning by yourself, as implementation m
 
 ### iOS
 
-The complete tutorial how to implement the Certificate Pinning using Alamofire or Firebase: https://www.netguru.com/codestories/certificate-pinning-in-ios
+- [The complete tutorial how to implement the Certificate Pinning using Alamofire or Firebase](https://www.netguru.com/codestories/certificate-pinning-in-ios)
 
-Complete implementation of the Certificate Pinning using TrustKit
+- [Complete implementation of the Certificate Pinning using TrustKit](https://github.com/karolpiateknet/CertificatePinning/blob/master/CertificatePinning/Networking/TrustKit/TrustKitCertificatePinning.swift )
 
-https://github.com/karolpiateknet/CertificatePinning/blob/master/CertificatePinning/Networking/TrustKit/TrustKitCertificatePinning.swift 
-
-Unit Tests of TrustKit Certificate Pinning implementation for better understanding:
-
-https://github.com/karolpiateknet/CertificatePinning/blob/master/CertificatePinningTests/TrustKitCertificatePinningTests.swift 
+- [Unit Tests of TrustKit Certificate Pinning implementation for better understanding](https://github.com/karolpiateknet/CertificatePinning/blob/master/CertificatePinningTests/TrustKitCertificatePinningTests.swift )
 
 ### Android
 
-The complete tutorial how to implement the Certificate Pinning in Android:
-
-https://www.netguru.com/codestories/3-ways-how-to-implement-certificate-pinning-on-android
+[The complete tutorial how to implement the Certificate Pinning in Android](https://www.netguru.com/codestories/3-ways-how-to-implement-certificate-pinning-on-android)
 
 ## Testing guide
 ### Description
