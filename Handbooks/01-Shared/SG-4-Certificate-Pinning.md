@@ -18,7 +18,7 @@ Imagine you are using a public Wi-Fi network on the train, conference or coffee 
 ## When you need it
 Usually, the heavier your security implementation, the less flexible and harder to maintain it gets. You should always look for a solution that fits your app.
 
-- If you really care about security and you can do it at the expense of flexibility, you should choose hardcoded certificate pinning. This solution should be used for example in banking applications - it is the safest of those presented here.
+- If you really care about security and you can do it at the expense of flexibility, you should choose hardcoded certificate pinning. This solution should be used for example in banking applications — it is the safest of those presented here.
 
 - If your certificates change very often and security isn't crucial in your project, you should probably use public key pinning. It will give you more flexibility and you will not block users with older versions of your application.
 
