@@ -39,7 +39,7 @@ Remember that you shouldn’t implement pinning by yourself, as implementation m
 
 ### Warning
 
-Usually if you would like to implement Certificate Pinning you will be pinning to domain fingerprint certificate ( last in the chain of certificates). 
+Usually if you would like to implement Certificate Pinning you will be pinning to domain fingerprint certificate (last in the chain of certificates). 
 
 However there are two cases when it is not possible:
 1. Using the Amazon domain (xxx.cloudfront.xxx), or other CDN.
