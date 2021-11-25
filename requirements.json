@@ -54,7 +54,7 @@
                         "priority": "Medium",
                         "feature": "Authentication requires to enter data (password, pin) through e.g. keyboard.",
                         "description": "No sensitive data, such as passwords or pins, is exposed through the user interface. You have to use secure text entry for fields.",
-                        "reference": "../Handbooks/TODO.md"
+                        "reference": "../Handbooks/01-Shared/SD.8-Masking-sensitive-data-in-the-UI.md"
                     },
                     {
                         "priority": "Critical",

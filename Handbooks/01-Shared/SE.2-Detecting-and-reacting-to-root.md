@@ -163,10 +163,10 @@ Rooted/Jailbroken and normal device with installed application.
 ## Additional resources
 - https://medium.com/@deekshithmoolyakavoor/root-detection-in-android-device-9144b7c2ae07
 - https://medium.com/secarmalabs/comparison-of-different-android-root-detection-bypass-tools-8fd477251640
-- https://www.xda-developers.com/root/ - root directory with guides how to root specific device
+- https://www.xda-developers.com/root/ — root directory with guides how to root specific device
 - https://www.digitaltrends.com/mobile/how-to-jailbreak-your-iphone/
 - https://medium.com/better-programming/how-to-make-ios-app-secure-from-jailbroken-device-1efccc736d9b
-- https://github.com/ProteGO-Safe/ios/blob/e84c068209abd6390c4ac5b2ff06a24135b92cb4/safesafe/Services/JailbreakService.swift - example jailbreak detection implementation
+- https://github.com/ProteGO-Safe/ios/blob/e84c068209abd6390c4ac5b2ff06a24135b92cb4/safesafe/Services/JailbreakService.swift — example jailbreak detection implementation
 - https://github.com/GantMan/jail-monkey
 - https://mobile-security.gitbook.io/masvs/security-requirements/0x15-v8-resiliency_against_reverse_engineering_requirements
 - https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06j-Testing-Resiliency-Against-Reverse-Engineering.md#jailbreak-detection-mstg-resilience-1
