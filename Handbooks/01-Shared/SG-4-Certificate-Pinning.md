@@ -28,7 +28,7 @@ Usually, the heavier your security implementation, the less flexible and harder 
 
 ## Problem and desired effect
 ### Problem:
-Communication with the backend may contain emails, passwords or sensitive data that could be used to log into email accounts, for example.
+Communication with the backend may contain emails, passwords or sensitive data that for example could be used to log into email accounts.
 
 ### Desired effect:
 The data encryption certificate sent from the backend has been checked if it is a valid Certificate. If the certificate is incorrect, the application will not communicate with this server
