@@ -3,7 +3,7 @@
 No sensitive data, such as passwords or pins, is exposed through the user interface. You have to use secure text entry for fields.
 
 ## Risk
-Sensitive data can be leaked to user interface when inputs are not configured properly. It may lead to capturing for example password on a screenshoot taken by spy apps. Inputs which may contain data like passwords, pins or other personal data should be masked with dots or asterisks for example.
+Sensitive data can be leaked to user interface when inputs are not configured properly. It may lead to capturing for example password on a screenshot taken by spy apps. Inputs which may contain data like passwords, pins or other personal data should be masked with dots or asterisks for example.
 
 ## When you need it
 When your app contains inputs that are meant to collect passwords, pins or other sensitive data.
