@@ -11,7 +11,7 @@
 | SD.5 | Critical | Hardcoded keys | App doesn't store sensitive hardcoded keys inside app and conforms to best practices of storing hardcoded keys | [Handbook](../Handbooks/TODO.md) |
 | SD.6 | Critical | Login / signup | Do not store user password in local data storage | [Handbook](../Handbooks/TODO.md) |
 | SD.7 | High | Third party service with API keys | Keys generated in Third Party service like Google Cloud should have minimum set of permissions. <br> It should have assigned bundleID / AppID to key, It will accept data only from those apps | [Handbook](../Handbooks/TODO.md) |
-| SD.8 | Medium | Authentication requires to enter data (password, pin) through e.g. keyboard | No sensitive data, such as passwords or pins, is exposed through the user interface. You have to use secure text entry for fields | [Handbook](../Handbooks/TODO.md) |
+| SD.8 | Medium | Authentication requires to enter data (password, pin) through e.g. keyboard | No sensitive data, such as passwords or pins, is exposed through the user interface. You have to use secure text entry for fields | [Handbook](../Handbooks/01-Shared/SD.8-Masking-sensitive-data-in-the-UI.md) |
 | SD.9 | Critical | App is making requests to REST API | Whole communication should use only HTTPS protocol | [Handbook](../Handbooks/TODO.md) |
 | SD.10 | Medium | Platforms with native obfuscation: Android, Flutter, React-Native | Obfuscation should be configured. For Android: App should have proguard/r8 enabled | [Handbook](../Handbooks/TODO.md) |
 | SD.11 | Low | App is adding new permissions | Review permissions and use only necessary | [Handbook](../Handbooks/TODO.md) |
