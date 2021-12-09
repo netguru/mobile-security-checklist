@@ -67,7 +67,7 @@ It is the simplest solution to store a secret key in iOS, but it can be easily e
 
 Load your ipa project file to Hopper and select the Str button in the left menu, then search for the value of the provided secret.
 
-<img width="341" alt="Hopper" src="https://user-images.githubusercontent.com/57398986/145383067-0089c620-6f37-4e6e-a2b6-604915b40aa3.png">
+<img width="551" alt="Hopper" src="https://user-images.githubusercontent.com/57398986/145398111-be548d3c-0756-4c92-97aa-ae15327b474a.png">
 
 You can find that it can easily be found, especially when a stored secret has a specific pattern and you can search for strings containing that pattern.
 
@@ -84,11 +84,7 @@ console.log("Class properties: " + instance["- _ivarDescription"]());
 
 It would return us all class properties and methods parsed to String.
 
-```
-{
-  "topSecretKey" = "top_secret_key_value";
-}
-```
+<img width="777" alt="ScriptResult" src="https://user-images.githubusercontent.com/57398986/145398170-e4f9f727-bbaf-491f-86ee-dc5bceb044f7.png">
 
 Storing these secrets in encrypted form and using another class for decryption would make it a little bit harder to get the secrets, but in the end the app would still need a place where this secret is in the memory in decrypted form.
 
