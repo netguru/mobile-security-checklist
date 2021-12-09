@@ -40,7 +40,7 @@ When you need to use static keys in your application.
 Storage of static keys.
 
 ### Desired effect:
-Storing not harmful keys in not easy to extract form.
+Storing not harmful keys in a not easy to extract form.
 
 ## Solution
 
