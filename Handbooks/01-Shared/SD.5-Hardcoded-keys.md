@@ -63,9 +63,12 @@ A common solution used by many developers is to store a secret key as a property
 
 `private let topSecretKey = "top_secret_key_value"`
 
-It is the simplest solution to store a secret key in iOS, but it can be easily extracted using a proper tool, e.g. Hopper Disassembler.
+It is the simplest solution to store a secret key in iOS, but it can be easily extracted using a proper tool, e.g. [Hopper Disassembler](https://www.hopperapp.com/).
 
 Load your ipa project file to Hopper and select the Str button in the left menu, then search for the value of the provided secret.
+
+<img width="341" alt="Hopper" src="https://user-images.githubusercontent.com/57398986/145383067-0089c620-6f37-4e6e-a2b6-604915b40aa3.png">
+
 You can find that it can easily be found, especially when a stored secret has a specific pattern and you can search for strings containing that pattern.
 
 #### Secret stored in array of Ints
