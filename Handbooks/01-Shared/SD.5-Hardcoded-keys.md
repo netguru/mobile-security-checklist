@@ -1,6 +1,6 @@
 # Requirement
 ## [CWE-798](https://cwe.mitre.org/data/definitions/798.html)
-App doesn't store sensitive hardcoded keys inside app and conforms to best practices of storing hardcoded keys.
+App doesn't store sensitive hard-coded keys inside the app and conforms to best practices of storing hard-coded keys.
 
 ## Introduction
 
