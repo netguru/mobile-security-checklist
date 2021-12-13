@@ -29,7 +29,7 @@ It can be easily implemented by just changing one line of code for Cocoapods so 
 Easy replacement of dynamically linked sensitive libraries.
 
 ### Desired effect:
-Attacker is not able to easily replace implementation of used library.
+Attacker is not able to easily replace implementation of used libraries.
 
 ## Solution
 Link libraries in a static way, they will be compiled into a single binary file. In the result application should have a single binary file instead of separate files for every library.
