@@ -6,7 +6,7 @@ If the application contains sensitive libraries like security checks (Jailbreak 
 It will be much easier to change their code while they are linked dynamically.
 
 ### Example of dynamically linked library
-Application is using external library to check multiple anti-tampering defenses.
+Application is using an external library to check multiple anti-tampering defenses.
 
 Library is dynamically linked to the project and stores it as separate directory and binary file:
 
