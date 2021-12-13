@@ -1,5 +1,5 @@
 # Requirement
-Libraries are linked staticly to increase the difficulty level of reverse engineering.
+Libraries are linked statically to increase the difficulty level of reverse engineering.
 
 ## Risk
 If application contains sensitive libraries like security checks (Jailbreak detection), networking, payments, etc.
