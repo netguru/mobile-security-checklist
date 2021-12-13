@@ -36,7 +36,7 @@
                         "priority": "Critical",
                         "feature": "Hardcoded keys",
                         "description": "App doesn't store sensitive hardcoded keys inside app and conforms to best practices of storing hardcoded keys.",
-                        "reference": "../Handbooks/TODO.md"
+                        "reference": "../Handbooks/01-Shared/SD.5-Hardcoded-keys.md"
                     },
                     {
                         "priority": "Critical",
@@ -301,7 +301,7 @@
                         "priority": "Medium",
                         "feature": "Using NSURLSession",
                         "description": "By default NSURLSession stores data, such as HTTP requests and responses in the Cache.db database. <br> It should be disabled in URLSession with setting .ephemeral type instead of default one.",
-                        "reference": "../Handbooks/TODO.md"
+                        "reference": "../Handbooks/02-iOS/iOS.2-Disable-caching-in-URLSession.md"
                     },
                     {
                         "priority": "Medium",
