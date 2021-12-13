@@ -6,4 +6,5 @@
 | iOS.3 | Medium | Certificate Pinning implemetation using TrustKit | Set kTSKDisableDefaultReportUri to true <br> By default this flag is false, which means it will be sending error reports to tool owner | [Handbook](../Handbooks/TODO.md) |
 | iOS.4 | High | Default | Verify if not needed files are not included in the bundle. <br> Exclude them if needed using EXCLUDED_SOURCE_FILE_NAMES | [Handbook](../Handbooks/TODO.md) |
 | iOS.5 | Low | User enter sensitive data or password into inputs | Verify that the app prevents usage of custom third-party keyboards whenever sensitive data is entered | [Handbook](../Handbooks/02-iOS/iOS.5-Force-system-keyboard.md) |
+| iOS.6 | Low | Using external libraries | External libraries should be linked staticly | [Handbook](../Handbooks/02-iOS/iOS.6-external-libraries-linking.md) |
 
