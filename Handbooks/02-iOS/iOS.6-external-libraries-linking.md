@@ -55,7 +55,7 @@ Adding libraries with static linkage is quite hard, there is no support by defau
 External libraries are linked statically and built inside the app file.
 
 ### Example scenario:
-Application is using external libraries using for example Cocoapods.
+Application is using external libraries, for example added via Cocoapods.
 
 ### How to:
 1. Download project ipa file
