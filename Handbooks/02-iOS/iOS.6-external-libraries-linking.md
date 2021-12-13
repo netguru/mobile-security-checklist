@@ -52,7 +52,7 @@ Adding libraries with static linkage is quite hard, there is no support by defau
 
 ## Testing guide
 ### Description
-External libraries are linkedin staticly and build inside the app file.
+External libraries are linked statically and built inside the app file.
 
 ### Example scenario:
 Application is using external libraries using for example Cocoapods.
