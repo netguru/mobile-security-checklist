@@ -62,6 +62,7 @@ Application is using external libraries using for example Cocoapods.
 2. Unzip it using command `unzip projectName.ipa`
 3. Open directory with unzipped project
 4. Open project package contents
+
    <img width="451" alt="project-package-contents" src="https://user-images.githubusercontent.com/57398986/145824822-9cf61476-0edd-44ea-87a8-1a9fdd6c6972.png">
 6. Verify if the “Framework” directory contains third party libraries. It should not, it should only contain linked Apple libraries.
 
