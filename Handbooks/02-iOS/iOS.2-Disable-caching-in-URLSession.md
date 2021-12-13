@@ -35,6 +35,17 @@ Requests and responses are not being stored in unencrypted Cache.db file.
 3. Cache can be also disabled by setting the Cache Policy to [.notAllowed](https://developer.apple.com/documentation/foundation/urlcache/storagepolicy/notallowed). It will disable storing Cache in any fashion, either in memory or on disk.
 
 ## Testing guide
+### Description
+Application should not store unencrypted sensitive data.
+
+### Example scenario:
+Application performs different API calls.
+
+### Tools needed:
+- Jailbroken iPhone
+- Objection
+
+### How to:
 To find the cached information open the data directory of the app (`/var/mobile/Containers/Data/Application/<UUID>`) and go to `/Library/Caches/<Bundle Identifier>`. The WebKit cache is also being stored in the Cache.db file. 
 
 Objection can open and interact with the database with the command `sqlite connect Cache.db`, as it is a normal SQLite database.
