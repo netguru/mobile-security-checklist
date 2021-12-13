@@ -2,8 +2,8 @@
 Libraries are linked statically to increase the difficulty level of reverse engineering.
 
 ## Risk
-If application contains sensitive libraries like security checks (Jailbreak detection), networking, payments, etc.
-It will be much easier to change their code while they are linked dynamicly.
+If the application contains sensitive libraries like security checks (Jailbreak detection), networking, payments, etc.
+It will be much easier to change their code while they are linked dynamically.
 
 ### Example of dynamically linked library
 Application is using external library to check multiple anti-tampering defenses.
