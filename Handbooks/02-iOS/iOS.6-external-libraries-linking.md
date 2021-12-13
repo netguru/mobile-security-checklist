@@ -26,7 +26,7 @@ It can be easily implemented by just changing one line of code for Cocoapods so 
 
 ## Problem and desired effect
 ### Problem:
-Easy replacement of dynamically linked sensitive library.
+Easy replacement of dynamically linked sensitive libraries.
 
 ### Desired effect:
 Attacker is not able to easily replace implementation of used library.
