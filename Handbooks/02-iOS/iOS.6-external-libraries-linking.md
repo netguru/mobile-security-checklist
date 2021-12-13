@@ -48,7 +48,7 @@ Swift Package Manager uses static linking by default, so there’s no need for a
 
 #### Carthage
 
-Adding libraries with static linkage is quite hard, there is no support by default. However there are some workarounds that may or may not work, so this section is being skipped.
+Adding libraries with static linkage is quite hard, because there is no support by default. However there are some workarounds that may or may not work, so this section is being skipped.
 
 ## Testing guide
 ### Description
