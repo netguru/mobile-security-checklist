@@ -64,7 +64,7 @@ Application is using external libraries, for example added via Cocoapods.
 4. Open project package contents
 
    <img width="451" alt="project-package-contents" src="https://user-images.githubusercontent.com/57398986/145824822-9cf61476-0edd-44ea-87a8-1a9fdd6c6972.png">
-6. Verify if the “Framework” directory contains third party libraries. It should not, it should only contain linked Apple libraries.
+6. Verify if the “Framework” directory contains any third party libraries. There should be none, but only linked Apple libraries.
 
 ## Additional resources
 - https://blog.krzyzanowskim.com/2018/12/05/rpath-what/
