@@ -32,7 +32,7 @@ Easy replacement of dynamically linked sensitive libraries.
 Attacker is not able to easily replace implementation of used libraries.
 
 ## Solution
-Link libraries in a static way, they will be compiled into a single binary file. In the result application should have a single binary file instead of separate files for every library.
+Link libraries in a static way, so they will be compiled into a single binary file. In the result application should have a single binary file instead of separate files for every library.
 
 ### Cocoapods
 
