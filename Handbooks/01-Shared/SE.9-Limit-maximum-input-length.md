@@ -17,7 +17,7 @@ Long input can be entered in insecure input fields allowing, for example, Inject
 All input fields should be configured properly and have at least basic max length validation.
 
 ## Solution
-Review all input fields to make sure that their maximum length is correct for specific use cases. For example there’s no need to have more than 100 characters for a name or email input. Consider consulting with the backend as most of the time they should have some default characters limit like 255 or other for different cases. Try to follow their requirements and your experience when it comes to inputs that are sent to the backend.
+Review all input fields to make sure that their maximum length is correct for specific use cases. For example there’s no need to have more than 100 characters for a name or address input. Consider consulting with the backend as most of the time they should have some default characters limit like 255 or other for different cases. Try to follow their requirements and your experience when it comes to inputs that are sent to the backend.
 
 If backend is missing such protection then strongly suggest that it should be added.
 
@@ -27,7 +27,7 @@ Add default max length to integers
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <integer name="maxLength">255</integer>
-    <integer name="maxEmailLength">50</integer>
+    <integer name="maxNameLength">50</integer>
 </resources>
 ```
 preferably set it in your app theme which is used in Manifest.xml to limit all inputs
@@ -40,23 +40,23 @@ preferably set it in your app theme which is used in Manifest.xml to limit all i
 and if needed override it in specific style or simply by widget attribute, like:
 ```xml
 <!-- Style declaration -->
-<style name="EmailInputStyle">
-    <item name="android:maxLength">@integer/maxEmailLength</item>
+<style name="NameInputStyle">
+    <item name="android:maxLength">@integer/maxNameLength</item>
 </style>
 <!-- Style usage -->
 <EditText
-    android:id="@+id/emailEt"
-    style="@style/EmailInputStyle"
+    android:id="@+id/nameEt"
+    style="@style/NameInputStyle"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:inputType="textEmailAddress" />
+    android:inputType="textPersonName|textCapWords" />
 <!-- Simple attribute usage -->
 <EditText
-    android:id="@+id/emailEt"
+    android:id="@+id/nameEt"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:inputType="textEmailAddress"
-    android:maxLength="@integer/maxEmailLength" />
+    android:inputType="textPersonName|textCapWords"
+    android:maxLength="@integer/maxNameLength" />
 ```
 
 ### iOS
