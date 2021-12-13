@@ -58,10 +58,10 @@ External libraries are linked statically and built inside the app file.
 Application is using external libraries, for example added via Cocoapods.
 
 ### How to:
-1. Download project ipa file
-2. Unzip it using command `unzip projectName.ipa`
-3. Open directory with unzipped project
-4. Open project package contents
+1. Download project ipa file.
+2. Unzip it using command `unzip projectName.ipa`.
+3. Open directory with unzipped project.
+4. Open project package contents.
 
    <img width="451" alt="project-package-contents" src="https://user-images.githubusercontent.com/57398986/145824822-9cf61476-0edd-44ea-87a8-1a9fdd6c6972.png">
 6. Verify if the “Framework” directory contains any third party libraries. There should be none, but only linked Apple libraries.
