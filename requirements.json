@@ -175,6 +175,12 @@
                         "feature": "App receives data from user input",
                         "description": "Input data should be properly validated to process it safely.",
                         "reference": "../Handbooks/01-Shared/SE.9-Limit-maximum-input-length.md"
+                    },
+                    {
+                        "priority": "Medium",
+                        "feature": "App properly configures auto-correction",
+                        "description": "Auto-correction should be disabled for sensitive input",
+                        "reference": "../Handbooks/01-Shared/SE.10-Disable-auto-correction.md"
                     }
                 ]
             },

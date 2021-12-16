@@ -37,6 +37,7 @@
 | SE.7 | Low | App is recognizing device as trust device | The app implements a 'device binding' functionality using a device fingerprint derived from multiple properties unique to the device | [Handbook](../Handbooks/TODO.md) |
 | SE.8 | Medium | Login | Block App after number of login failures | [Handbook](../Handbooks/TODO.md) |
 | SE.9 | Medium | App receives data from user input | Input data should be properly validated to process it safely | [Handbook](../Handbooks/01-Shared/SE.9-Limit-maximum-input-length.md) |
+| SE.10 | Medium | App properly configures auto-correction | Auto-correction should be disabled for sensitive input | [Handbook](../Handbooks/01-Shared/SE.10-Disable-auto-correction.md) |
 
 
 ## WebView
