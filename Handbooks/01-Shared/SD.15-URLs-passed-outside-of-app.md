@@ -53,4 +53,4 @@ Application should open only valid URLs and ignore those that are not contained 
 
 | Step 1 | Step 2 | Step 3 |
 | --  | -- | -- |
-| ![Step 1](/assets/SD15-1-example.png) | ![Step 2](/assets/SD15-2-example.png) | ![Step 3](/assets/SD15-3-example.png) |
+| ![Step 1](https://user-images.githubusercontent.com/11170458/146354585-43334329-dfca-4253-9305-ef84a8337716.png) | ![Step 2](https://user-images.githubusercontent.com/11170458/146354591-208f6bde-0c8d-496b-aef2-5d76f773cb3b.png) | ![Step 3](https://user-images.githubusercontent.com/11170458/146354603-fcfae8cd-dd1b-436e-94f4-564e704f2380.png) |
