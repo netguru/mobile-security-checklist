@@ -96,7 +96,7 @@
                         "priority": "Medium",
                         "feature": "URLs passed outside of app (for example from API)",
                         "description": "Validate url according whitelist of urls within app.",
-                        "reference": "../Handbooks/SD.15-URLs-passed-outside-of-app.md"
+                        "reference": "../Handbooks/01-Shared/SD.15-URLs-passed-outside-of-app.md"
                     },
                     {
                         "priority": "Medium",
