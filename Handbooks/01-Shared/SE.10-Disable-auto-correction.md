@@ -10,13 +10,13 @@ When your app contains inputs that are meant to collect passwords, pins or other
 
 ## Problem and desired effect
 ### Problem:
-Passwords, pins or other sensitive data can be stored in cache and accessed without any permissions.
+Pins, personal info or other sensitive data can be stored in cache and accessed without any permissions.
 
 ### Desired effect:
 Any sensitive data should not be cached for auto-correction purposes.
 
 ## Solution
-Review input fields and disable auto-correct feature for all sensitive data, not only passwords but also pins, medical data etc. If aiming for maximum protection, like in banking app for example, please consider implementing your own password/pin input, or even a custom keyboard depending on requirements.
+Review input fields and disable auto-correction feature for all sensitive data, not only passwords but also pins, medical data etc.
 
 ### Android
 Android has an open approach when it comes to keyboards so please keep in mind that some settings can be ignored by some implementations or manufacturers. Default way to disable auto-correction is to use `textNoSuggestions` input type like below:
@@ -35,7 +35,7 @@ Stronger way is to use `textVisiblePassword` input type, but that can have some 
     android:layout_height="wrap_content"
     android:inputType="textVisiblePassword" />
 ```
-Recommended way is to use a proper input type based on field requirements, or like mentioned above, implement an own input if really needed.
+Recommended way is to use a proper input type based on field requirements and specification.
 
 ### iOS
 To disable auto-correction you should set `autocorrectionType` as follows:

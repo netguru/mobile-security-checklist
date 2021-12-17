@@ -301,7 +301,7 @@
                         "priority": "Medium",
                         "feature": "Using NSURLSession",
                         "description": "By default NSURLSession stores data, such as HTTP requests and responses in the Cache.db database. <br> It should be disabled in URLSession with setting .ephemeral type instead of default one.",
-                        "reference": "../Handbooks/02-iOS/iOS.2-Disable-caching-in-URLSession.md"
+                        "reference": "../Handbooks/02-iOS/iOS-Disable-caching-in-URLSession.md"
                     },
                     {
                         "priority": "Medium",
@@ -319,13 +319,13 @@
                         "priority": "Low",
                         "feature": "User enter sensitive data or password into inputs.",
                         "description": "Verify that the app prevents usage of custom third-party keyboards whenever sensitive data is entered.",
-                        "reference": "../Handbooks/02-iOS/iOS.5-Force-system-keyboard.md"
+                        "reference": "../Handbooks/02-iOS/iOS-Force-system-keyboard.md"
                     },
                     {
                         "priority": "Low",
                         "feature": "Using external libraries.",
                         "description": "External libraries should be linked staticly.",
-                        "reference": "../Handbooks/02-iOS/iOS.6-external-libraries-linking.md"
+                        "reference": "../Handbooks/02-iOS/iOS-External-libraries-linking.md"
                     }
                 ]
             }
