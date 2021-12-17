@@ -1,6 +1,6 @@
 # Requirement
 ## [Application Security Verification Standard 3.0.1 (Paragraph 9.1)](https://owasp.org/www-pdf-archive/OWASP_Application_Security_Verification_Standard_3.0.1.pdf)
-Disable auto-correction in sensitive inputs
+Disable auto-correction in sensitive inputs.
 
 ## Risk
 All sensitive information can be cached or added to a dictionary if not secured properly. Currently auto-correction is a very common feature used by most of available keyboards across platforms. It’s very useful but it can also cause data leaks as they’re often stored in cache which can be accessed without any additional permissions.
@@ -19,7 +19,7 @@ Any sensitive data should not be cached for auto-correction purposes.
 Review input fields and disable auto-correct feature for all sensitive data, not only passwords but also pins, medical data etc. If aiming for maximum protection, like in banking app for example, please consider implementing your own password/pin input, or even a custom keyboard depending on requirements.
 
 ### Android
-Android has open approach when it comes keyboards so please keep in mind that some settings can be ignored by some implementations or manufacturers. Default way to disable auto-correction is to use `textNoSuggestions` input type like below:
+Android has an open approach when it comes to keyboards so please keep in mind that some settings can be ignored by some implementations or manufacturers. Default way to disable auto-correction is to use `textNoSuggestions` input type like below:
 ```xml
 <EditText
     android:id="@+id/sensitiveEt"
@@ -60,16 +60,16 @@ autoCorrect={false} />
 App will not suggest or correct previously entered sensitive data.
 
 ### Example scenario:
-Enter some sensitive word into properly configured input field, switch fields and notice that keyboard won’t suggest to use it or correct any similar one to match it.
+Enter some sensitive word into a properly configured input field, switch fields and notice that the keyboard won’t suggest using it or correct any similar one to match it.
 
 ### Tools needed:
 Platform based device with installed app.
 
 ### How to:
 - Run the app.
-- Enter some text in configured input field.
+- Enter some text in the configured input field.
 - Switch fields or apps.
-- Start entering the same or similar text - notice that keyboard will not suggest or autocomplete it.
+- Start entering the same or similar text — notice that the keyboard will not suggest or autocomplete it.
 
 ## Additional resources
 - https://books.nowsecure.com/secure-mobile-development/en/caching-logging/be-aware-of-the-keyboard-cache.html

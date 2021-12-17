@@ -298,12 +298,6 @@
                 "code": "iOS",
                 "requirements": [
                     {
-                        "priority": "low",
-                        "feature": "Using UITextField with sensitive data",
-                        "description": "Set autocorrectionType to .none in Sensitive UITextFields.",
-                        "reference": "../Handbooks/TODO.md"
-                    },
-                    {
                         "priority": "Medium",
                         "feature": "Using NSURLSession",
                         "description": "By default NSURLSession stores data, such as HTTP requests and responses in the Cache.db database. <br> It should be disabled in URLSession with setting .ephemeral type instead of default one.",
