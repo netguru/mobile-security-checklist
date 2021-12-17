@@ -53,7 +53,6 @@ Just add below line in the `<TextInput>` as follows:
 //...
 secureTextEntry={true} />
 ```
-For more information about safety related TextInput properties please check this great article [Sensitive & login/register forms in React Native](https://netguru.atlassian.net/wiki/spaces/RN/pages/915243053)
 
 ## Testing guide
 ### Description
