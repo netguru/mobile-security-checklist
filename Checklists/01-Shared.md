@@ -20,7 +20,7 @@
 | SD.14 | Medium | User can recover account | The app doesn't rely on a single insecure communication channel (email or SMS) for critical operations, such as enrollments and account recovery. You should have possiblity to verify somehow user identity e.g. security questions, additional informtation about what happend in account | [Handbook](../Handbooks/TODO.md) |
 | SD.15 | Medium | URLs passed outside of app (for example from API) | Validate url according whitelist of urls within app | [Handbook](../Handbooks/01-Shared/SD.15-URLs-passed-outside-of-app.md) |
 | SD.16 | Medium | Login / signup | Removing all data after logout, keychain, files, cache | [Handbook](../Handbooks/TODO.md) |
-| SD.17 | Low | User enter sensitive data or password into inputs | Disable additional hardware keyboard connected to device, user can only use fabric one | [Handbook](../Handbooks/TODO.md) |
+| SD.17 | Critical | Application contains deep / universal links | App verifies content of deep links according to best practices | [Handbook](../Handbooks/TODO.md) |
 | SD.18 | High | Logout | Invalidate access token through request to backend | [Handbook](../Handbooks/TODO.md) |
 
 
