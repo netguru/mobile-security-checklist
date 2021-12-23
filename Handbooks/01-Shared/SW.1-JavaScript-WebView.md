@@ -1,69 +1,68 @@
 # Requirement
-## [Link to requirement specification (OWASP MSTG, CWE, etc)](https://)
-<!-- Short description of the requirement. -->
+## [MSTG-PLATFORM-5](https://mobile-security.gitbook.io/masvs/security-requirements/0x11-v6-interaction_with_the_environment)
+JavaScript is disabled in WebViews unless explicitly required.
 
 ## Risk
-<!--
-Risk explanation of the feature not being implemented properly in the project.
-This should provide information that will persuade non-tech product owners
-to invest into improving the security of the project.
--->
+Using WebViews exposes application for displaying malicious web content and/or allow the attacker to access the user's files.
 
 ## When you need it
-<!--
-List of factors that help to decide if your
-project needs this security requirement to be implemented.
-This can include things like application target,
-vulnerable logic flows or specific features.
--->
+When app is using WebView.
 
 ## Problem and desired effect
 ### Problem:
-<!-- Initial state of the project without secure implementation. (AS IS) -->
+WebViews support JavaScript execution so script injection and Cross-Site Scripting attacks can affect them.
 
 ### Desired effect:
-<!-- Desired state of the project with proper security measures. (TO BE) -->
+Disable JavaScript in WebViews unless explicitly required.
 
 ## Solution
-<!--
-Proposed solution.
-Depending on a requirement this can be a description of general improvements
-or even detailed implementation steps with code examples.
-This section should provide guidance for developers
-of each major platform (Android, iOS, React Native or Flutter).
--->
+
+### iOS
+`UIWebView` → Deprecated starting on iOS 12 and should not be used. Make sure that either `WKWebView` or `SFSafariViewController` are used to embed web content.
+
+`WKWebView` → Disable JavaScript using `WKPreferences` & `WKWebViewConfiguration` or use `SFSafariViewController`.
+
+```
+let preferences = WKPreferences()
+preferences.javaScriptEnabled = false
+preferences.javaScriptCanOpenWindowsAutomatically = false
+        
+let configuration = WKWebViewConfiguration()
+configuration.preferences = preferences
+        
+let webView = WKWebView(frame: view.bounds, configuration: configuration)
+```
+
+`SFSafariViewController` → Safari application with separate `Sandbox` so there is no interaction between App <-> WebView. You don't have to worry about JavaScript which anyway cannot be disabled by developer.
+
+### Android
+
+JavaScript is disabled by default for WebViews.
 
 ## Testing guide
 ### Description
-<!--
-Brief description of desired effect.
-(how application should behave with proper implementation)
--->
+WebViews should be used with disabled JavaScript.
 
 ### Example scenario:
-<!--
-Example scenario describing how application
-should behave with proper implementation.
--->
+- App opens WebView.
+- No JavaScript code is executed.
 
 ### Tools needed:
-<!-- List of tools required to perform test of the implementation. -->
+- Xcode for iOS
+- Android Studio for android
 
 ### How to:
-<!--
-Step by step guide with instructions how to perform an 'attack'
-that will test if everything was properly implemented.
--->
+
+#### iOS
+- Search for `UIWebView` / `WKWebView` in Xcode by Find navigator.
+- Verify that there is no `UIWebView` and JavaScript is properly disabled for usages of `WKPreferences` and ensure that the `javaScriptEnabled` property is set to `false`.
+
+#### Android
+Look for the method `setJavaScriptEnabled` to check for JavaScript activation.
+
+`webview.getSettings().setJavaScriptEnabled(true);`
 
 ## Additional resources
-### Tools:
-<!--
-List of links to required tools download sites
-and articles explaining how to use them.
--->
-
-### Examples attacks (youtube, tutorials, etc.):
-<!--
-List of links to articles explaining in bigger detail
-how described vulnerability can be exploited.
--->
+- https://mobile-security.gitbook.io/masvs/security-requirements/0x11-v6-interaction_with_the_environment
+- https://github.com/OWASP/owasp-mstg/blob/master/Document/0x06h-Testing-Platform-Interaction.md#testing-ios-webviews-mstg-platform-5
+- https://github.com/OWASP/owasp-mstg/blob/master/Document/0x05h-Testing-Platform-Interaction.md#testing-javascript-execution-in-webviews-mstg-platform-5 
