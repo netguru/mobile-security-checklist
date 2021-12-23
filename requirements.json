@@ -105,9 +105,9 @@
                         "reference": "../Handbooks/TODO.md"
                     },
                     {
-                        "priority": "Low",
-                        "feature": "User enter sensitive data or password into inputs.",
-                        "description": "Disable additional hardware keyboard connected to device, user can only use fabric one.",
+                        "priority": "Critical",
+                        "feature": "Application contains deep / universal links.",
+                        "description": "App verifies content of deep links according to best practices.",
                         "reference": "../Handbooks/TODO.md"
                     },
                     {
