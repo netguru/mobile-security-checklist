@@ -50,6 +50,26 @@ This project is made with ❤️ by [Netguru](https://netguru.com).
 <a href="https://github.com/karolpiateknet">
   <img alt="Karol" src="https://avatars.githubusercontent.com/u/57398986?v=4" height="60" width="60"/>
 </a>
+  
+<a href="https://github.com/Silvorion">
+  <img alt="Karol" src="https://avatars.githubusercontent.com/u/41166091?v=4" height="60" width="60"/>
+</a>
+  
+<a href="https://github.com/mtbrzeski">
+  <img alt="Karol" src="https://avatars.githubusercontent.com/u/19146143?v=4" height="60" width="60"/>
+</a>
+  
+<a href="https://github.com/drohoo">
+  <img alt="Karol" src="https://avatars.githubusercontent.com/u/18630690?v=4" height="60" width="60"/>
+</a>
+  
+<a href="https://github.com/Patys">
+  <img alt="Karol" src="https://avatars.githubusercontent.com/u/8997573?v=4" height="60" width="60"/>
+</a>
+  
+<a href="https://github.com/howtodance">
+  <img alt="Karol" src="https://avatars.githubusercontent.com/u/11170458?v=4" height="60" width="60"/>
+</a>
 
 </div>
 <br>
