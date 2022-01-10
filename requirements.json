@@ -192,7 +192,7 @@
                         "priority": "Medium",
                         "feature": "App is using webview.",
                         "description": "JavaScript is disabled in WebViews unless explicitly required.",
-                        "reference": "../Handbooks/TODO.md"
+                        "reference": "../Handbooks/01-Shared/SW.1-JavaScript-WebView.md"
                     }
                 ]
             },

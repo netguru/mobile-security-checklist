@@ -44,7 +44,7 @@
 
 | ID  | Priority | Feature | Description | Link |
 | --  | -- | ---------------------- | ---------------------- | - |
-| SW.1 | Medium | App is using webview | JavaScript is disabled in WebViews unless explicitly required | [Handbook](../Handbooks/TODO.md) |
+| SW.1 | Medium | App is using webview | JavaScript is disabled in WebViews unless explicitly required | [Handbook](../Handbooks/01-Shared/SW.1-JavaScript-WebView.md) |
 
 
 ## Upload
