@@ -13,7 +13,7 @@ Which should make it easier to decide, if app need such requirement and how to a
 
 # Why did we decide to create a Mobile Security Checklist?
 
-TODO:
+We wanted to make mobile security more accessible and standardize the list of requirements that projects could conform to. 
 
 # Table of contents
 
