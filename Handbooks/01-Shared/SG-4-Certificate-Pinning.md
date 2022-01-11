@@ -13,7 +13,7 @@ You can also check out this [video](https://www.youtube.com/watch?v=E5FEqGYLL0o)
 ## Risk
 Imagine you are using a public Wi-Fi network on the train, conference or coffee shop. That network might be created by someone who wants to read the data sent by you. Since that person is providing your internet connection, they can create their own certificate and tell you to encrypt your data with it. Because this person created the certificate, they can read all the data inside it and then send it further to the right receiver. You may not see that you’re using the wrong certificate. This technique is called a man-in-the-middle attack. This illustration shows how it works.
 
-![mitm-simulation](https://github.com/netguru/mobile-security-checklist/blob/handbook/SG.4/assets/mitm-simulation.png) 
+![mitm-simulation](https://github.com/netguru/mobile-security-checklist/blob/master/assets/mitm-simulation.png) 
 
 ## When you need it
 Usually, the heavier your security implementation, the less flexible and harder to maintain it gets. You should always look for a solution that fits your app.
