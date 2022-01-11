@@ -27,7 +27,9 @@ We wanted to make mobile security more accessible and standardize the list of re
 
 - [Shared](Handbooks/01-Shared/)
 - [iOS](Handbooks/02-iOS/)
-- [Android](Handbooks/03-Android/)
+<!-- Uncomment Android directory after adding first handbook
+- [Android](Handbooks/03-Android/) 
+-->
 
 # TODO
 
