@@ -73,6 +73,10 @@ This project is made with ❤️ by [Netguru](https://netguru.com).
   <img alt="Eugene" src="https://avatars.githubusercontent.com/u/11170458?v=4" height="60" width="60"/>
 </a>
 
+<a href="https://github.com/MateuszMatyska">
+  <img alt="Mateusz" src="https://avatars.githubusercontent.com/u/37210055?v=4" height="60" width="60"/>
+</a>
+
 </div>
 <br>
 

@@ -115,6 +115,12 @@
                         "feature": "Logout.",
                         "description": "Invalidate access token through request to backend.",
                         "reference": "../Handbooks/TODO.md"
+                    },
+                    {
+                        "priority": "High",
+                        "feature": "Application contains Development / Debug code.",
+                        "description": "This code is not compiled to Production application.",
+                        "reference": "../Handbooks/TODO.md"
                     }
                 ]
             },
