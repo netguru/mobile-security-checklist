@@ -83,3 +83,7 @@ This project is made with ❤️ by [Netguru](https://netguru.com).
 Wanna become next contributor? Check these guides:
 - [Checklist contribution](Checklists/how_to_contribute.md)
 - [Handbooks contribution](Handbooks/how_to_contribute.md)
+
+# License
+
+The mobile security checklist is available as open source under the terms of the [Apache 2.0 LICENSE](LICENSE).
