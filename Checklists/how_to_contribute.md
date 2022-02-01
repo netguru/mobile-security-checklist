@@ -6,7 +6,7 @@ So you would like to be a part and improve mobile security checklist, great! We 
 
 Find a requirement that will benefit mobile applications in terms of security and justify usage of it.
 It is important that we can understand why such a requirement is beneficial for projects. 
-You can provide links with detailed explanation, owasp tutorials, blogs or just show how it can be used against app.
+You can provide links with detailed explanation, OWASP tutorials, blogs or just show how it can be used against an app.
 
 # 2. Create an issue 
 
