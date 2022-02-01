@@ -10,7 +10,7 @@ You can provide links with detailed explanation, OWASP tutorials, blogs or just 
 
 # 2. Create an issue 
 
-Create an issue providing all necessery informations about the requirement and wait for our response.
+Create an issue providing all necessary informations about the requirement and wait for our response.
 
 # 3. Create branch and add requirement
 
