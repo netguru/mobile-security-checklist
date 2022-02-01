@@ -16,7 +16,7 @@ Create an issue providing all necessary informations about the requirement and w
 
 - Create a branch with prefix `checklist/*`
 - Add your requirement proper category in [Requirements.json](../requirements.json)
-- Run script generating md files and excel using [tutorial](../script)
+- Run script generating md files and spreadsheet using [tutorial](../script)
 
 # 4. Create a Pull Request
 
