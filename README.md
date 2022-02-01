@@ -33,7 +33,6 @@ We wanted to make mobile security more accessible and standardize the list of re
 
 # TODO
 
-- [Checklist requirements contibution guide](Checklists/how_to_contribute.md).
 - Setup branches policy for contributing new content.
 
 # About
