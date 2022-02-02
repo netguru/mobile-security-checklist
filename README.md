@@ -31,10 +31,6 @@ We wanted to make mobile security more accessible and standardize the list of re
 - [Android](Handbooks/03-Android/) 
 -->
 
-# TODO
-
-- Setup branches policy for contributing new content.
-
 # About
 
 This project is made with ❤️ by [Netguru](https://netguru.com).
