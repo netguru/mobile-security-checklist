@@ -20,9 +20,6 @@ Create an issue providing all necessary informations about the requirement and w
 
 # 4. Create a Pull Request
 
-After our team approval you should create a PR with requirement and link to the issue.
+Choose checklist Pull Request template and conform to defined requirements.
 
-- Put your handbook on a new branch named after the chosen requirement ID — handbook/<requirement_id>.
-- With your branch pushed to the remote you can create a new Pull Request.
-- Remember to properly fill all required information in the PR template and ensure it has a Checklist label.
-- Submit your Pull Request and wait for a review from one of the maintainers.
+Submit your Pull Request and wait for a review from one of the maintainers.
