@@ -275,7 +275,7 @@
                     {
                         "priority": "High",
                         "feature": "User can play video in the application",
-                        "description": "Video data must be received through HTTPS protocol",
+                        "description": "Video data must be received through encrypted protocol",
                         "reference": "../Handbooks/TODO.md"
                     }
                 ]

@@ -78,7 +78,7 @@
 
 | ID  | Priority | Feature | Description | Link |
 | --  | -- | ---------------------- | ---------------------- | - |
-| SV.1 | High | User can play video in the application | Video data must be received through HTTPS protocol | [Handbook](../Handbooks/TODO.md) |
+| SV.1 | High | User can play video in the application | Video data must be received through encrypted protocol | [Handbook](../Handbooks/TODO.md) |
 
 
 ## Location
