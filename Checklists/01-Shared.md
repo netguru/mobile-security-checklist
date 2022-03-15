@@ -23,6 +23,7 @@
 | SD.17 | Critical | Application contains deep / universal links | App verifies content of deep links according to best practices | [Handbook](../Handbooks/TODO.md) |
 | SD.18 | High | Logout | Invalidate access token through request to backend | [Handbook](../Handbooks/TODO.md) |
 | SD.19 | High | Application contains Development / Debug code | This code is not compiled to Production application | [Handbook](../Handbooks/TODO.md) |
+| SD.20 | High | Staging offers app functionalities for free | It should be protected against random users | [Handbook](../Handbooks/TODO.md) |
 
 
 ## Extra

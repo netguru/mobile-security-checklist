@@ -121,6 +121,12 @@
                         "feature": "Application contains Development / Debug code.",
                         "description": "This code is not compiled to Production application.",
                         "reference": "../Handbooks/TODO.md"
+                    },
+                    {
+                        "priority": "High",
+                        "feature": "Staging offers app functionalities for free.",
+                        "description": "It should be protected against random users.",
+                        "reference": "../Handbooks/TODO.md"
                     }
                 ]
             },
